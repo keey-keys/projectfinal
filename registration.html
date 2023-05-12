@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title> responsive fitness website</title>
+
+
+
+   <!-- bootstrap cdn link  -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/4.6.1/css/bootstrap.min.css">
+
+   <!-- custom css file link  -->
+   <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+
+<!-- header section starts  -->
+
+<header class="header fixed-top">
+
+   <div class="container">
+
+      <div class="row align-items-center justify-content-between">
+
+         <a href="#" class="logo"><span>Fitness</span>Freaks</a>
+
+         <nav class="nav">
+            <a href="index.html">home</a>
+            <a href="#about">about</a>
+            <a href="#courses">courses</a>
+            <a href="#pricing">pricing</a>
+            <a href="#team">team</a>
+            <a href="#blogs">blogs</a>
+            <a href="registration.html">registration</a>
+         </nav>
+
+         <div id="menu-btn" class="fas fa-bars"></div>
+
+      </div>
+
+   </div>
+
+</header>
+
+<div class="formContainer">
+    <form action="registration.php" method="post">
+        <div class="reserveInput">
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" placeholder="My Name is" required>
+        </div>
+        <div class="reserveInput">
+          <label for="email">E-mail</label>
+          <input type="email" id="email" name="email" placeholder="My Email ID is" required>
+        </div>
+        <div class="reserveInput">
+          <label for="phone">Your Phone</label>
+          <input type="tel" id="phone" name="phone" placeholder="123-456-7889" required>
+        </div>
+        <hr>
+        <div class="reserveInput inlined">
+          <label for="checkin-date">Start Date</label>
+          <input type="date" id="checkin-date" name="checkin" required>
+        </div>
+        <hr>
+        <div class="reserveInput">
+          <label for="message">Anything to ask?</label>
+          <textarea id="message" name="message" placeholder="Type in here to ask anything to us...." required></textarea>
+        </div>
+        <button type="submit">Register</button>
+      </form>
+ </div>
+    <section class="footer">
+    <div class="box-container container">
+ 
+       <div class="box">
+          <h3>quick links</h3>
+          <a href="#home"> <i class="fas fa-angle-right"></i> home</a>
+          <a href="#about"> <i class="fas fa-angle-right"></i> about</a>
+          <a href="#courses"> <i class="fas fa-angle-right"></i> courses</a>
+          <a href="#pricing"> <i class="fas fa-angle-right"></i> pricing</a>
+          <a href="#team"> <i class="fas fa-angle-right"></i> team</a>
+          <a href="#blogs"> <i class="fas fa-angle-right"></i> blogs</a>
+       </div>
+ 
+       <div class="box">
+          <h3>contact info</h3>
+          <a href="#"> <i class="fas fa-phone"></i> +123-456-7890 </a>
+          <a href="#"> <i class="fas fa-phone"></i> +111-222-3333 </a>
+          <a href="#"> <i class="fas fa-envelope"></i> okikijesu@gmail.com </a>
+          <a href="#"> <i class="fas fa-map"></i>Brooklyn, NY</a>
+       </div>
+ 
+       <div class="box">
+          <h3>follow us</h3>
+          <a href="#"> <i class="fab fa-facebook-f"></i> facebook </a>
+          <a href="#"> <i class="fab fa-twitter"></i> twitter </a>
+          <a href="#"> <i class="fab fa-instagram"></i> instagram </a>
+       </div>
+    </div>
+    </section>
+
+ </body>
+ </html>
